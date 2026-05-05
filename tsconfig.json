@@ -16,7 +16,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/search.jsx",
+, "app/index.jsx",
     "src/declarations.d.ts"
   ]
 }
