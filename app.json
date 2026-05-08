@@ -4,17 +4,14 @@
     "slug": "GitIntel-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/Icons/icon.svg",
     "scheme": "gitintelapp",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./src/assets/Icons/icon.svg",
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./src/assets/Icons/icon.svg"
+        "backgroundColor": "#E6F4FE"
       },
       "predictiveBackGestureEnabled": false
     },
@@ -26,9 +23,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./src/assets/Icons/icon.svg",
-          "imageWidth": 200
+          "backgroundColor": "#208AEF"
         }
       ],
       "expo-font",
