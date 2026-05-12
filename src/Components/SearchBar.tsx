@@ -1,27 +1,38 @@
-import { StyleSheet, Text, TextInput, View } from "react-native";
+import { StyleSheet, Text, TextInput, View, Pressable } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import React, { useState } from 'react'; 
-
+import { useState, useRef } from 'react'; // Added useRef
 
 const SearchBar = () => {
   const [isFocused, setIsFocused] = useState(false);
+  // Concept: useRef (Direct Access)
+  // We use a "ref" to manually tell the input to focus if the View is tapped
+  const inputRef = useRef<TextInput>(null);
+
   return (
-    <View style={[styles.container,isFocused && styles.containerFocused]}>
+    <Pressable 
+      onPress={() => inputRef.current?.focus()} // Focus input when clicking anywhere on the bar
+      style={[styles.container, isFocused ? styles.containerFocused : null]}
+    >
       <Ionicons name="search" size={18} color="#52525B" style={styles.icon} />
+      
       <TextInput
-        onFocus={() =>setIsFocused(true)}
-        onBlur={()=>setIsFocused(false)}
+        ref={inputRef} // Connect the ref
+        onFocus={() => setIsFocused(true)}
+        onBlur={() => setIsFocused(false)}
+        keyboardAppearance="dark"
         placeholder="Search repositories, users, or architect..."
         placeholderTextColor="#52525B"
-        style={styles.input}
+        style={styles.input} 
       />
 
       <View style={styles.kkey}>
         <Text style={styles.kText}>⌘ K</Text>
       </View>
-    </View>
+    </Pressable>
   );
 };
+
+
 
 export default SearchBar;
 

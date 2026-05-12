@@ -5,7 +5,7 @@ import React from 'react'
 
 const Search = () => {
   return (
-    <View>
+    <View >
       <SearchBar/>
     </View>
   )
