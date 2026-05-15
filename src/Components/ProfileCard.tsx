@@ -6,8 +6,9 @@ const ProfileCard = () => {
   return (
     <View style={styles.cardShell}>
         <View style={styles.topContainer}>
-            <View>
-                <Image/>
+            <View style={styles.ImageContainer}>
+            <Image source={require("../assets/Images/User Profile.png")} style = {styles.image}/>
+            <View style={styles.dotStatus}></View>
             </View>
 
 
@@ -38,7 +39,33 @@ const styles = StyleSheet.create({
     topContainer :{
         flexDirection:"row",
         justifyContent:"space-between"
+    },
+    ImageContainer:{
+        height:128,
+        width:128,
+        borderRadius:12,
+        borderWidth:2,
+        borderColor:"#ADC6FF",
+        position: "relative"
+
+    },
+    image:{
+        height:"100%",
+        width:"100%",
+        borderRadius:12,
+    },
+    dotStatus:{
+        width:16,
+        height:16,
+        backgroundColor:"#22C55E",
+        borderRadius:9,
+        position:"absolute",
+        bottom:0,
+        right:0,
+        borderWidth:3,
+        borderColor:"#18181B"
     }
+    
 
 
 });
