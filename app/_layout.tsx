@@ -1,5 +1,5 @@
 import { Stack, Tabs } from "expo-router";
-import {View} from "react-native";
+import {View,StyleSheet} from "react-native";
 import Header  from "../src/Components/Header"
 import { useEffect } from "react";
 import * as SplashScreen from 'expo-splash-screen';
@@ -48,3 +48,4 @@ export default function RootLayout () {
         </ThemeProvider>
     );
 }
+
