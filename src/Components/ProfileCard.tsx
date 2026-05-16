@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
         padding:15,
         borderColor:"#27272A",
         marginBottom:16,
-        height:"70%",
         margin:15,
 
         borderWidth: 3,
@@ -63,7 +62,7 @@ const styles = StyleSheet.create({
         bottom:0,
         right:0,
         borderWidth:3,
-        borderColor:"#18181B"
+        borderColor:"#1E2020"
     }
     
 
