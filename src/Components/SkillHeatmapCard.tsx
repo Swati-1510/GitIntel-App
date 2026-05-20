@@ -1,6 +1,7 @@
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import SkillIcon from "../assets/Icons/skill.svg";
 import Icon from "../assets/Icons/infoIcon.svg";
+import { LinearGradient } from 'expo-linear-gradient';
 import React from "react";
 
 const SkillHeatmapCard = () => {
@@ -18,7 +19,7 @@ const SkillHeatmapCard = () => {
         </View>
 
         <View style={styles.progressBarTrack}>
-          <View style={styles.progressFill1} />
+          <LinearGradient colors={['#78a0ff', '#ADC6FF']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={styles.progressFill1} />
         </View>
 
         <View style={styles.secondRow}>
@@ -27,7 +28,7 @@ const SkillHeatmapCard = () => {
         </View>
 
         <View style={styles.progressBarTrack}>
-          <View style={styles.progressFill2} />
+          <LinearGradient colors={["#98f5ed", "#18eddb"]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={styles.progressFill2} />
         </View>
 
         <View style={styles.thirdRow}>
@@ -36,7 +37,7 @@ const SkillHeatmapCard = () => {
         </View>
 
         <View style={styles.progressBarTrack}>
-          <View style={styles.progressFill3} />
+          <LinearGradient colors={["#A1A1AA", "#707076"]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={styles.progressFill3} />
         </View>
       </View>
 
