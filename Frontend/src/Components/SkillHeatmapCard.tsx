@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderBottomColor: "#080808", // Pure black top border mimics a shadow "inside"
     borderRightColor: "#080808",
-    borderLeftColor: "#1F1F1F", // Lighter right/bottom edges look like
-    borderTopColor: "#1F1F1F",
+    borderLeftColor: "#222225", // Lighter right/bottom edges look like
+    borderTopColor: "#222225",
   },
   container1: {
     flexDirection: "row",
