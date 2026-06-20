@@ -58,7 +58,7 @@ GitIntel is a high-density, cyberpunk-inspired developer analytics platform buil
 *   Expo Go app on your physical mobile device or an Emulator (Android Studio / Xcode)
 
 ### Repository Structural Tree
-确保你的工程目录组织结构如下：
+
 ```text
 /GitIntel-Project
   ├── /frontend  <-- React Native Mobile App
@@ -96,7 +96,7 @@ npx expo start -c
 
 ---
 
-## 💼 Fresher Technical Competence Proofs (For Interviewers)
+## 💼 Fresher Technical Competence Proofs 
 This Minimum Viable Product (MVP) proves mastery over the following concepts during live engineering reviews:
 *   **Component Composition:** Architecture built utilizing isolated atomic UI bricks (Lego method) rather than bloated monolithic files.
 *   **Network Synchronization:** Bridges the mobile environment to local workstation networks by replacing local loopback traps with static local IPv4 matching bridges.
