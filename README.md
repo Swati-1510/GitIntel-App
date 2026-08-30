@@ -1,8 +1,18 @@
-# GitIntel Project
-
 # GitIntel 🚀 — Full-Stack Developer Analytics Mobile Command Center
 
 GitIntel is a high-density, cyberpunk-inspired developer analytics platform built for tech recruiters, engineering managers, and open-source maintainers. Instead of scanning raw commit histories or jumping between chaotic browser tabs, GitIntel aggregates distributed GitHub user data, framework proficiencies, and repository telemetry into a gamified, ultra-modern mobile dashboard.
+
+## 📸 App Previews
+
+<div align="center">
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/6daee9ba-0ee0-4031-949f-e573c994d8ad" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/b1a1a293-d87c-4608-924e-5f3cd9c8576a" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/b3ee295c-e49f-42f7-b193-dbfc1a0a0fdf" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/1683e9fb-c85e-493f-8f68-f7961869f8c4" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/7bad4d6b-eef7-4f1f-9703-1f28fc7cfcf3" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/b56b46bc-5430-4d36-82e9-a3b7f49db2be" />
+  <img width="240" alt="image" src="https://github.com/user-attachments/assets/4063f249-9f9f-4ed6-9f6f-54334dd4fbbc" />
+</div>
 
 ---
 
@@ -116,6 +126,7 @@ This Minimum Viable Product (MVP) proves mastery over the following concepts dur
 *   **`expo-image`, `expo-font`, `expo-linear-gradient`**: Utilities for optimized image loading, custom font management, and rendering gradient backgrounds.
 *   **`expo-glass-effect`**: Used to apply modern glassmorphism styling to UI elements.
 *   **`typescript`**: Adds static typing to JavaScript to catch errors early and improve developer experience.
+* **`expo-secure-store`**: This gives you direct access to the phone's native encrypted keychain storage area to safely tuck away your backend session tickets (tokens) [INDEX].
 
 ### Backend (Node.js / Express)
 *   **`express`**: A minimal and flexible Node.js web application framework used to build our robust API.
